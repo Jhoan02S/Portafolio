@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Portafolio</title>
+        <link href="assets/img/Logo4.png" rel="shortcut icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/normalize.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <head> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-green position-fixed">
+                <div class="container-fluid">
+                    <a class="navbar-brand nav__color p-4 " href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav d-flex">
+                            <a class="nav-link justify-content-end" aria-current="page" href="">Home</a>
+                            <a class="nav-link justify-content-end" href="#">Formulario</a>
+                            <a class="nav-link justify-content-end" href="#">¿Donde me ubico?</a>
+                            <a class="nav-link justify-content-end" href="#" tabindex="-1" aria-disabled="true">¿Quien soy?</a>
+                        </div>  
+                    </div>
+                </div>
+            </nav>
+        </head>
+            <div class="position-fixed col-2 bottom-0 end-0 mb-5 me-3">
+                <div class="alert alert-green alert-dismissible fade show" id="alert" role="alert">
+                    <href link=""><strong>Hola bienvenido!</strong></href>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+            </div> 
+        <div class="container">
+            <div class="row">
+              <div class="col-12">
+                    <form class="row g-3 lop mb-5" id="collapse">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+                <span class="container border-bottom border-5 border-green mt-5 mb-5"></span>
+                <div class="col-6">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6 pb-5">
+                    <p  >
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nostrum sunt aliquid, sapiente expedita tempora maiores sequi velit amet. Corrupti dicta dolorem quo beatae eveniet exercitationem impedit cumque esse cum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nostrum sunt aliquid, sapiente expedita tempora maiores sequi velit amet. Corrupti dicta dolorem quo beatae eveniet exercitationem impedit cumque esse cum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nostrum sunt aliquid, sapiente expedita tempora maiores sequi velit amet. Corrupti dicta dolorem quo beatae eveniet exercitationem impedit cumque esse cum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nostrum sunt aliquid, sapiente expedita tempora maiores sequi velit amet. Corrupti dicta dolorem quo beatae eveniet exercitationem impedit cumque esse cum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nostrum sunt aliquid, sapiente expedita tempora maiores sequi velit amet. Corrupti dicta dolorem quo beatae eveniet exercitationem impedit cumque esse cum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="footer m-auto p-3 bg-green">
+        <div class="container" style="color: #fff;">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nostrum sunt aliquid, sapiente expedita tempora maiores sequi velit amet. Corrupti dicta dolorem quo beatae eveniet exercitationem impedit cumque esse cum.
+            </p>
+            <span class="text-ligth " style="color: #fff;" _msthash="404807" _msttexthash="1684995">Coloque contenido de pie de página pegajoso aquí.</span>
+        </div>
+        <script>
+            setTimeout(function() {
+            $('.alert').fadeOut('slow');}, 3000
+            );
+        </script>
+    </footer>
+</html>

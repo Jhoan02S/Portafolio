@@ -1,0 +1,83 @@
+:root{
+    --bs-new-color: #10db54;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+.footer-p{
+    background: var(--bs-new-color);
+}
+.alert-green{
+    border-color: var(--bs-new-color);
+    color: var(--bs-new-color);
+}
+@media screen and (max-width: 991px) and (min-width: 0){
+    .alert {
+        display: none;
+    }
+}
+.border-green{
+    border-color: var(--bs-new-color) !important;
+}
+.bg-green  {
+    background-color: var(--bs-new-color)!important;
+}
+.navbar{
+    display: block;
+    width: 100%;
+}
+p {
+    margin: auto;
+}
+.primero{
+    padding-top: 4rem;
+    margin: auto;
+}
+.lop{
+    padding-top: 8rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5%;
+}
+.navbar-light .navbar-nav .nav-link:visited {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5%;
+}
+@media screen and (max-width: 991px) and (min-width: 0){
+    .navbar-light .navbar-nav .nav-link{
+        border-radius: 0;
+        display: inline;
+        
+    }
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(25, 241, 169);
+    background-color: #138037;
+}
+.navbar-light .nav__color  {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .nav__color:hover  {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand:visited{
+    color: rgb(255, 255, 255);   
+}
+/*
+nav{
+    background-image: url(h.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+*/
